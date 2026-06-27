@@ -8,6 +8,7 @@ My focus areas: high-load backends, microservices, WordPress, web security, AI i
 I run [GLOBUS.studio](https://globus.studio) - an outsource dev studio. We take on projects that require real engineering: complex backends, integrations, performance-critical systems. No inflated estimates, no bloated teams. Just solid work and honest communication.
 My main product is [BotBlocker](https://botblocker.top) - a WordPress security plugin that stops bots, brute-force attacks, and spam at the earliest possible point, before WordPress even loads. 
 
+[![Leonidov Yevhen GitHub stats](https://github-readme-stats.vercel.app/api?username=MADEVAL)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Find me
 
