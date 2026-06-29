@@ -34,4 +34,4 @@ My main product is [BotBlocker](https://botblocker.top) - a WordPress security p
 
 ---
 
-*© 2009–2026 Yevhen Leonidov*
+*© 2009–2026 Yevhen Leonidov* 
