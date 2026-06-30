@@ -8,7 +8,7 @@ Software architect and engineer from Ukraine, writing code since 2008. I design 
 
 **[BotBlocker](https://botblocker.top)** - my WordPress security plugin. It stops bots, brute-force attacks, and spam at the earliest possible point, before WordPress even loads.
 
-[![Yevhen Leonidov GitHub stats](https://github-readme-stats.vercel.app/api?username=MADEVAL&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Yevhen Leonidov GitHub stats](https://github-stats-extended.vercel.app/api?username=MADEVAL&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Find me
 
