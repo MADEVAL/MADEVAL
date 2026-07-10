@@ -1,0 +1,72 @@
+name: Packagist Total Downloads
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  push:
+    paths:
+      - '.github/workflows/packagist-stats.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch and sum Packagist downloads
+        env:
+          PACKAGIST_USER: 'Yevhen%20Leonidov'
+        run: |
+          import json
+          import urllib.request
+          import os
+
+          user = os.environ['PACKAGIST_USER']
+
+          with urllib.request.urlopen(f'https://packagist.org/users/{user}/packages.json') as resp:
+              data = json.loads(resp.read())
+
+          packages = [p['name'] for p in data['packages']]
+          total = 0
+          details = {}
+
+          for pkg in packages:
+              try:
+                  with urllib.request.urlopen(f'https://packagist.org/packages/{pkg}/stats.json') as resp:
+                      stats = json.loads(resp.read())
+                  dl = stats['downloads']['total']
+                  total += dl
+                  details[pkg] = dl
+                  print(f'{pkg}: {dl}')
+              except Exception as e:
+                  print(f'{pkg}: ERROR - {e}')
+
+          result = {
+              'schemaVersion': 1,
+              'label': 'Packagist',
+              'message': str(total),
+              'color': 'orange',
+              'total': total,
+              'packages': len(packages),
+              'details': details
+          }
+
+          with open('packagist-total.json', 'w') as f:
+              json.dump(result, f, indent=2)
+
+          print(f'TOTAL ({len(packages)} packages): {total}')
+
+      - name: Commit and push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add packagist-total.json
+          git diff --staged --quiet || git commit -m "Update Packagist total downloads"
+          git push

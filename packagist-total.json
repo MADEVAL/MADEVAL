@@ -1,0 +1,22 @@
+{
+    "details":  {
+                    "globus-studio/cortex-atomic":  165,
+                    "globus-studio/atomic-framework":  158,
+                    "globus-studio/fatfree-core":  163,
+                    "globus-studio/phpqrcode":  71,
+                    "globus-studio/php-obfuscator":  81,
+                    "globus-studio/async":  63,
+                    "globus-studio/sypexgeo":  143,
+                    "globus-studio/readsight":  50,
+                    "globus-studio/fingerprint":  47,
+                    "globus-studio/atomic-framework-application":  5,
+                    "globus-studio/atom":  45,
+                    "ferry-ai/php-inference":  0
+                },
+    "label":  "Packagist",
+    "color":  "orange",
+    "packages":  12,
+    "total":  991,
+    "schemaVersion":  1,
+    "message":  "991"
+}
