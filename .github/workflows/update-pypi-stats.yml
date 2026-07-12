@@ -1,0 +1,124 @@
+name: Update package download stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    paths:
+      - '.github/workflows/update-pypi-stats.yml'
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Update PyPI stats
+        env:
+          PYPI_USER: 'GLOBUS.studio'
+        run: |
+          import json, urllib.request, xmlrpc.client, os
+
+          user = os.environ['PYPI_USER']
+          client = xmlrpc.client.ServerProxy('https://pypi.org/pypi')
+          packages = client.user_packages(user)
+
+          if not packages:
+              print('No PyPI packages found')
+              exit(0)
+
+          details = {}
+          for role, pkg in packages:
+              url = f'https://pypistats.org/api/packages/{pkg}/overall?mirrors=true'
+              try:
+                  req = urllib.request.Request(url, headers={'User-Agent': 'github-action'})
+                  with urllib.request.urlopen(req, timeout=15) as resp:
+                      data = json.loads(resp.read().decode())
+                  total = sum(day['downloads'] for day in data.get('data', []))
+                  details[pkg] = total
+                  print(f'  {pkg}: {total}')
+              except Exception as e:
+                  print(f'  {pkg}: error - {e}')
+
+          result = {
+              'schemaVersion': 1,
+              'label': 'PyPI',
+              'message': str(sum(details.values())),
+              'color': '3775A9',
+              'total': sum(details.values()),
+              'packages': len(details),
+              'details': details
+          }
+
+          with open('pypi-total.json', 'w') as f:
+              json.dump(result, f, indent=4)
+              f.write('\n')
+
+          print(f"PyPI total: {result['total']} ({result['packages']} packages)")
+        shell: python
+
+      - name: Update npm stats
+        env:
+          NPM_MAINTAINER: 'yevhen-leonidov'
+        run: |
+          import json, urllib.request, datetime, os
+
+          maintainer = os.environ['NPM_MAINTAINER']
+          search_url = f'https://registry.npmjs.org/-/v1/search?text=maintainer:{maintainer}&size=250'
+
+          req = urllib.request.Request(search_url, headers={'User-Agent': 'github-action'})
+          with urllib.request.urlopen(req, timeout=15) as resp:
+              search_data = json.loads(resp.read().decode())
+
+          packages = [o['package']['name'] for o in search_data.get('objects', [])]
+
+          if not packages:
+              print('No npm packages found')
+              exit(0)
+
+          end = (datetime.date.today() + datetime.timedelta(days=1)).isoformat()
+          details = {}
+
+          for pkg in packages:
+              url = f'https://api.npmjs.org/downloads/point/2015-01-10:{end}/{pkg}'
+              try:
+                  req = urllib.request.Request(url, headers={'User-Agent': 'github-action'})
+                  with urllib.request.urlopen(req, timeout=15) as resp:
+                      data = json.loads(resp.read().decode())
+                  total = data.get('downloads', 0)
+                  details[pkg] = total
+                  print(f'  {pkg}: {total}')
+              except Exception as e:
+                  print(f'  {pkg}: error - {e}')
+
+          result = {
+              'schemaVersion': 1,
+              'label': 'npm',
+              'message': str(sum(details.values())),
+              'color': 'CB3837',
+              'total': sum(details.values()),
+              'packages': len(details),
+              'details': details
+          }
+
+          with open('npm-total.json', 'w') as f:
+              json.dump(result, f, indent=4)
+              f.write('\n')
+
+          print(f"npm total: {result['total']} ({result['packages']} packages)")
+        shell: python
+
+      - name: Commit changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add pypi-total.json npm-total.json
+          git diff --staged --quiet || git commit -m 'Update download stats [skip ci]'
+          git push

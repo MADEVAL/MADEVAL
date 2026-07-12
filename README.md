@@ -13,9 +13,10 @@ Software architect and engineer from Ukraine, writing code since 2008. I design 
 ## Packages
 
 [![Crates.io total downloads](https://img.shields.io/crates/udt/428683?logo=rust&logoColor=white&label=Crates.io%20downloads&color=E43717)](https://crates.io/users/MADEVAL)
-[![npm downloads per month](https://img.shields.io/npm-stat/dm/yevhen-leonidov?logo=npm&logoColor=white&label=npm%20downloads%2Fmo&color=CB3837)](https://www.npmjs.com/~yevhen-leonidov)
+[![npm total downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMADEVAL%2FMADEVAL%2Fmain%2Fnpm-total.json&logo=npm&logoColor=white&label=npm%20downloads)](https://www.npmjs.com/~yevhen-leonidov)
 [![WordPress plugin downloads](https://img.shields.io/wordpress/plugin/dt/botblocker-security?logo=wordpress&logoColor=white&label=BotBlocker%20downloads&color=21759B)](https://wordpress.org/plugins/botblocker-security/)
 [![Packagist total downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMADEVAL%2FMADEVAL%2Fmain%2Fpackagist-total.json&logo=packagist&logoColor=white&label=Packagist%20downloads)](https://packagist.org/users/Yevhen%20Leonidov/)
+[![PyPI total downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMADEVAL%2FMADEVAL%2Fmain%2Fpypi-total.json&logo=pypi&logoColor=white&label=PyPI%20downloads)](https://pypistats.org/packages/readsight)
 
 ## Find me
 
