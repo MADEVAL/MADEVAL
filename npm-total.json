@@ -8,7 +8,7 @@
     "details": {
         "@globus.studio/oat-upload": 606,
         "@globus.studio/gstime": 263,
-        "@globus.studio/oat-table": 514,
-        "@globus.studio/fingerprintjs": 223
+        "@globus.studio/fingerprintjs": 223,
+        "@globus.studio/oat-table": 514
     }
 }
