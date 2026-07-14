@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - '.github/workflows/packagist-stats.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -62,6 +63,7 @@ jobs:
               json.dump(result, f, indent=2)
 
           print(f'TOTAL ({len(packages)} packages): {total}')
+        shell: python
 
       - name: Commit and push
         run: |
