@@ -17,6 +17,7 @@ Software architect and engineer from Ukraine, writing code since 2008. I design 
 [![WordPress plugin downloads](https://img.shields.io/wordpress/plugin/dt/botblocker-security?logo=wordpress&logoColor=white&label=BotBlocker%20downloads&color=21759B)](https://wordpress.org/plugins/botblocker-security/)
 [![Packagist total downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMADEVAL%2FMADEVAL%2Fmain%2Fpackagist-total.json&logo=packagist&logoColor=white&label=Packagist%20downloads)](https://packagist.org/users/Yevhen%20Leonidov/)
 [![PyPI total downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMADEVAL%2FMADEVAL%2Fmain%2Fpypi-total.json&logo=pypi&logoColor=white&label=PyPI%20downloads)](https://pypistats.org/packages/readsight)
+[![Pub.dev downloads (30d)](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMADEVAL%2FMADEVAL%2Fmain%2Fpub-total.json&logo=dart&logoColor=white&label=Pub.dev%20%2830d%29)](https://pub.dev/publishers/leonidov.dev/packages)
 
 ## Find me
 
