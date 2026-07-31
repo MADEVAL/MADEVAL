@@ -1,15 +1,15 @@
 {
     "schemaVersion": 1,
     "label": "npm",
-    "message": "1863",
+    "message": "1878",
     "color": "CB3837",
-    "total": 1863,
+    "total": 1878,
     "packages": 5,
     "details": {
-        "@globus.studio/gstime": 282,
-        "@globus.studio/fingerprintjs": 256,
-        "@globus.studio/oat-upload": 668,
-        "@globus.studio/oat-table": 581,
-        "@globus.studio/readsight": 76
+        "@globus.studio/gstime": 285,
+        "@globus.studio/fingerprintjs": 257,
+        "@globus.studio/oat-upload": 669,
+        "@globus.studio/oat-table": 590,
+        "@globus.studio/readsight": 77
     }
 }
