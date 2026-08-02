@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "label": "Packagist",
-  "message": "1811",
+  "message": "1815",
   "color": "orange",
-  "total": 1811,
+  "total": 1815,
   "packages": 12,
   "details": {
-    "ferry-ai/php-inference": 70,
+    "ferry-ai/php-inference": 71,
     "globus-studio/async": 154,
     "globus-studio/atom": 119,
     "globus-studio/atomic-framework": 240,
@@ -14,8 +14,8 @@
     "globus-studio/cortex-atomic": 260,
     "globus-studio/fatfree-core": 289,
     "globus-studio/fingerprint": 95,
-    "globus-studio/php-obfuscator": 138,
-    "globus-studio/phpqrcode": 124,
+    "globus-studio/php-obfuscator": 139,
+    "globus-studio/phpqrcode": 126,
     "globus-studio/readsight": 126,
     "globus-studio/sypexgeo": 191
   }
