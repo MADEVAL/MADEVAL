@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "label": "Packagist",
-  "message": "1867",
+  "message": "1870",
   "color": "orange",
-  "total": 1867,
+  "total": 1870,
   "packages": 12,
   "details": {
     "ferry-ai/php-inference": 71,
@@ -17,6 +17,6 @@
     "globus-studio/php-obfuscator": 145,
     "globus-studio/phpqrcode": 134,
     "globus-studio/readsight": 126,
-    "globus-studio/sypexgeo": 203
+    "globus-studio/sypexgeo": 206
   }
 }
