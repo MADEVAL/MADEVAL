@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "label": "Pub.dev (30d)",
-  "message": "137",
+  "message": "96",
   "color": "01579B",
-  "total": 137,
+  "total": 96,
   "packages": 3,
   "details": {
-    "hydraline": 51,
-    "hydraline_server": 43,
-    "hydraline_flutter": 43
+    "hydraline": 37,
+    "hydraline_server": 30,
+    "hydraline_flutter": 29
   }
 }
