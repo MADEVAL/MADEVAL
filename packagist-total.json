@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "label": "Packagist",
-  "message": "8595",
+  "message": "8722",
   "color": "orange",
-  "total": 8595,
+  "total": 8722,
   "packages": 12,
   "details": {
-    "ferry-ai/php-inference": 544,
-    "globus-studio/async": 647,
-    "globus-studio/atom": 617,
-    "globus-studio/atomic-framework": 834,
-    "globus-studio/atomic-framework-application": 499,
-    "globus-studio/cortex-atomic": 878,
-    "globus-studio/fatfree-core": 916,
-    "globus-studio/fingerprint": 570,
-    "globus-studio/php-obfuscator": 683,
-    "globus-studio/phpqrcode": 1004,
-    "globus-studio/readsight": 602,
-    "globus-studio/sypexgeo": 801
+    "ferry-ai/php-inference": 554,
+    "globus-studio/async": 657,
+    "globus-studio/atom": 627,
+    "globus-studio/atomic-framework": 845,
+    "globus-studio/atomic-framework-application": 509,
+    "globus-studio/cortex-atomic": 889,
+    "globus-studio/fatfree-core": 928,
+    "globus-studio/fingerprint": 580,
+    "globus-studio/php-obfuscator": 693,
+    "globus-studio/phpqrcode": 1015,
+    "globus-studio/readsight": 612,
+    "globus-studio/sypexgeo": 813
   }
 }
