@@ -9,7 +9,7 @@
         "@globus.studio/oat-table": 932,
         "@globus.studio/oat-upload": 879,
         "@globus.studio/fingerprintjs": 441,
-        "@globus.studio/readsight": 359,
-        "@globus.studio/gstime": 364
+        "@globus.studio/gstime": 364,
+        "@globus.studio/readsight": 359
     }
 }
