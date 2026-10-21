@@ -7,9 +7,9 @@
     "packages": 5,
     "details": {
         "@globus.studio/oat-table": 953,
-        "@globus.studio/fingerprintjs": 448,
         "@globus.studio/oat-upload": 886,
-        "@globus.studio/gstime": 367,
-        "@globus.studio/readsight": 363
+        "@globus.studio/fingerprintjs": 448,
+        "@globus.studio/readsight": 363,
+        "@globus.studio/gstime": 367
     }
 }
