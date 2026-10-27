@@ -1,0 +1,647 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-27T10:53:18+00:00",
+  "ok": true,
+  "errors": [],
+  "stale": [],
+  "github": [
+    {
+      "key": "github:MADEVAL/MindFluence",
+      "title": "MindFluence",
+      "full_name": "MADEVAL/MindFluence",
+      "description": "An AI prompt-skill that turns 20 cognitive biases into high-converting marketing copy. Includes playbooks for ads, landing pages, email sequences, social posts, webinars, and product launches. Language-agnostic. Works with any LLM.",
+      "language": "",
+      "stars": 58,
+      "url": "https://github.com/MADEVAL/MindFluence",
+      "pushed_at": "2026-07-12T13:37:01Z"
+    },
+    {
+      "key": "github:MADEVAL/Pre-Mortem-Skill",
+      "title": "Pre-Mortem-Skill",
+      "full_name": "MADEVAL/Pre-Mortem-Skill",
+      "description": "A structured failure-analysis workflow that assumes your plan already failed and works backward to find every reason why. Based on Gary Klein's premortem method (Harvard Business Review), validated by prospective-hindsight research from Wharton and Cornell",
+      "language": "",
+      "stars": 45,
+      "url": "https://github.com/MADEVAL/Pre-Mortem-Skill",
+      "pushed_at": "2026-06-30T14:13:32Z"
+    },
+    {
+      "key": "github:MADEVAL/HumanAI",
+      "title": "HumanAI",
+      "full_name": "MADEVAL/HumanAI",
+      "description": "AI skill for rewriting machine-generated text to sound human-written across 9 languages - 5-stage pipeline: cleanup → specificity → tone → rhythm → proofread.",
+      "language": "PowerShell",
+      "stars": 39,
+      "url": "https://github.com/MADEVAL/HumanAI",
+      "pushed_at": "2026-07-12T15:33:15Z"
+    },
+    {
+      "key": "github:MADEVAL/Oat-Table",
+      "title": "Oat-Table",
+      "full_name": "MADEVAL/Oat-Table",
+      "description": "Lightweight table extension for Oat UI. Sort, filter, and select rows.",
+      "language": "JavaScript",
+      "stars": 36,
+      "url": "https://github.com/MADEVAL/Oat-Table",
+      "pushed_at": "2026-06-30T15:01:32Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/WP-Update-Manager",
+      "title": "WP-Update-Manager",
+      "full_name": "GLOBUS-studio/WP-Update-Manager",
+      "description": "Disable All WordPress Updates with Full Control",
+      "language": "PHP",
+      "stars": 35,
+      "url": "https://github.com/GLOBUS-studio/WP-Update-Manager",
+      "pushed_at": "2026-06-30T17:40:14Z"
+    },
+    {
+      "key": "github:MADEVAL/Oat-Upload",
+      "title": "Oat-Upload",
+      "full_name": "MADEVAL/Oat-Upload",
+      "description": "Lightweight upload extension for Oat UI",
+      "language": "JavaScript",
+      "stars": 34,
+      "url": "https://github.com/MADEVAL/Oat-Upload",
+      "pushed_at": "2026-06-30T15:01:03Z"
+    },
+    {
+      "key": "github:MADEVAL/AngleCraft",
+      "title": "AngleCraft",
+      "full_name": "MADEVAL/AngleCraft",
+      "description": "Turn dry expert topics into high-engagement content with 7+2 journalistic angle types. An AI skill for any LLM, any niche, any language.",
+      "language": "",
+      "stars": 33,
+      "url": "https://github.com/MADEVAL/AngleCraft",
+      "pushed_at": "2026-06-30T21:10:54Z"
+    },
+    {
+      "key": "github:MADEVAL/FerryAI",
+      "title": "FerryAI",
+      "full_name": "MADEVAL/FerryAI",
+      "description": "Native AI inference for PHP 8.3+ - run ONNX, GGUF (llama.cpp) and RubixML models directly in your PHP process via FFI. Chat, streaming, embeddings, RAG and vector search. No Python, no HTTP microservices, no Docker sidecars.",
+      "language": "PHP",
+      "stars": 33,
+      "url": "https://github.com/MADEVAL/FerryAI",
+      "pushed_at": "2026-10-18T04:36:12Z"
+    },
+    {
+      "key": "github:MADEVAL/woocommerce-fastspring-gateway",
+      "title": "woocommerce-fastspring-gateway",
+      "full_name": "MADEVAL/woocommerce-fastspring-gateway",
+      "description": "WooCommerce FastSpring payment gateway integration — accept payments via FastSpring",
+      "language": "PHP",
+      "stars": 33,
+      "url": "https://github.com/MADEVAL/woocommerce-fastspring-gateway",
+      "pushed_at": "2026-06-30T16:18:26Z"
+    },
+    {
+      "key": "github:MADEVAL/Atomic-Framework",
+      "title": "Atomic-Framework",
+      "full_name": "MADEVAL/Atomic-Framework",
+      "description": "Lightweight PHP framework based on Fat-Free Framework",
+      "language": "PHP",
+      "stars": 32,
+      "url": "https://github.com/MADEVAL/Atomic-Framework",
+      "pushed_at": "2026-10-12T06:49:19Z"
+    },
+    {
+      "key": "github:MADEVAL/Fingerprint-JS",
+      "title": "Fingerprint-JS",
+      "full_name": "MADEVAL/Fingerprint-JS",
+      "description": "Browser fingerprinting library",
+      "language": "JavaScript",
+      "stars": 30,
+      "url": "https://github.com/MADEVAL/Fingerprint-JS",
+      "pushed_at": "2026-06-30T21:38:25Z"
+    },
+    {
+      "key": "github:MADEVAL/phpQRcode",
+      "title": "phpQRcode",
+      "full_name": "MADEVAL/phpQRcode",
+      "description": "Zero-dependency QR Code generator for PHP 7.4 - 9.0",
+      "language": "PHP",
+      "stars": 30,
+      "url": "https://github.com/MADEVAL/phpQRcode",
+      "pushed_at": "2026-06-15T11:21:22Z"
+    },
+    {
+      "key": "github:MADEVAL/RankWise",
+      "title": "RankWise",
+      "full_name": "MADEVAL/RankWise",
+      "description": "SEO Content Engine for LLMs - a prompt-engineering system that turns any capable AI into a world-class SEO strategist: generate, rewrite, and audit content against 49 ranking factors with multilingual support.",
+      "language": "Python",
+      "stars": 30,
+      "url": "https://github.com/MADEVAL/RankWise",
+      "pushed_at": "2026-07-12T15:31:13Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/SypexGeoRS",
+      "title": "SypexGeoRS",
+      "full_name": "GLOBUS-studio/SypexGeoRS",
+      "description": "Fast zero-dependency pure-Rust reader for SypexGeo binary IP geolocation databases - country, city and region lookups with file, in-memory and batch modes.",
+      "language": "Rust",
+      "stars": 30,
+      "url": "https://github.com/GLOBUS-studio/SypexGeoRS",
+      "pushed_at": "2026-06-29T16:25:10Z"
+    },
+    {
+      "key": "github:MADEVAL/WP-robots-generator",
+      "title": "WP-robots-generator",
+      "full_name": "MADEVAL/WP-robots-generator",
+      "description": "Smart client-side robots.txt generator for WordPress - security levels, plugin presets, AI crawler blocking, i18n. No backend, no dependencies.",
+      "language": "JavaScript",
+      "stars": 30,
+      "url": "https://github.com/MADEVAL/WP-robots-generator",
+      "pushed_at": "2026-06-30T15:02:49Z"
+    },
+    {
+      "key": "github:MADEVAL/Atomic-Framework-Application",
+      "title": "Atomic-Framework-Application",
+      "full_name": "MADEVAL/Atomic-Framework-Application",
+      "description": "Application template for Atomic Framework",
+      "language": "PHP",
+      "stars": 29,
+      "url": "https://github.com/MADEVAL/Atomic-Framework-Application",
+      "pushed_at": "2026-08-07T12:28:29Z"
+    },
+    {
+      "key": "github:MADEVAL/My-Bio-Page",
+      "title": "My-Bio-Page",
+      "full_name": "MADEVAL/My-Bio-Page",
+      "description": "Personal link-in-bio page - plain HTML/CSS/JS, dark/light theme, EN/RU, zero dependencies.",
+      "language": "HTML",
+      "stars": 29,
+      "url": "https://github.com/MADEVAL/My-Bio-Page",
+      "pushed_at": "2026-04-09T18:22:31Z"
+    },
+    {
+      "key": "github:MADEVAL/ATOM",
+      "title": "ATOM",
+      "full_name": "MADEVAL/ATOM",
+      "description": "PHP 8.5 micro‑framework. Single PCRE router, template engine, DI, validation, sessions, database, CLI",
+      "language": "PHP",
+      "stars": 26,
+      "url": "https://github.com/MADEVAL/ATOM",
+      "pushed_at": "2026-06-30T15:03:31Z"
+    },
+    {
+      "key": "github:MADEVAL/ReadSightPy",
+      "title": "ReadSightPy",
+      "full_name": "MADEVAL/ReadSightPy",
+      "description": "Multilingual readability library for Python - 86 languages, 17 formulas, TeX-based syllable counting via Frank M. Liang algorithm.",
+      "language": "Python",
+      "stars": 26,
+      "url": "https://github.com/MADEVAL/ReadSightPy",
+      "pushed_at": "2026-07-12T17:05:57Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/PhpObfuscator",
+      "title": "PhpObfuscator",
+      "full_name": "GLOBUS-studio/PhpObfuscator",
+      "description": "Token-based PHP source-code obfuscator: renames identifiers, Base64-encodes string literals, strips comments and minifies whitespace - built purely on PhpToken, no regex. Optional eval-wrapping and deterministic seeding. PHP 8.3+.",
+      "language": "PHP",
+      "stars": 25,
+      "url": "https://github.com/GLOBUS-studio/PhpObfuscator",
+      "pushed_at": "2026-06-29T11:55:31Z"
+    },
+    {
+      "key": "github:MADEVAL/ReadSight",
+      "title": "ReadSight",
+      "full_name": "MADEVAL/ReadSight",
+      "description": "Multilingual readability library for PHP - 86 languages, 17 formulas, TeX-based syllable counting via Frank M. Liang algorithm. Zero dependencies.",
+      "language": "TeX",
+      "stars": 25,
+      "url": "https://github.com/MADEVAL/ReadSight",
+      "pushed_at": "2026-07-12T17:46:04Z"
+    },
+    {
+      "key": "github:MADEVAL/Fingerprint-PHP",
+      "title": "Fingerprint-PHP",
+      "full_name": "MADEVAL/Fingerprint-PHP",
+      "description": "PHP fingerprinting library — identify and differentiate browsers, devices, and visitors",
+      "language": "PHP",
+      "stars": 23,
+      "url": "https://github.com/MADEVAL/Fingerprint-PHP",
+      "pushed_at": "2026-06-30T15:00:08Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/Cortex-Atomic",
+      "title": "Cortex-Atomic",
+      "full_name": "GLOBUS-studio/Cortex-Atomic",
+      "description": "A multi-engine ORM / ODM for the PHP Fat-Free Framework and Atomic Framework",
+      "language": "PHP",
+      "stars": 21,
+      "url": "https://github.com/GLOBUS-studio/Cortex-Atomic",
+      "pushed_at": "2026-08-30T22:22:21Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/CSSMinifier",
+      "title": "CSSMinifier",
+      "full_name": "GLOBUS-studio/CSSMinifier",
+      "description": "CSSMinifier is a compact, simple, and experimental tool crafted in PHP, designed for minifying CSS files.",
+      "language": "PHP",
+      "stars": 21,
+      "url": "https://github.com/GLOBUS-studio/CSSMinifier",
+      "pushed_at": "2026-06-30T14:20:29Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/GStime-JavaScript-Library",
+      "title": "GStime-JavaScript-Library",
+      "full_name": "GLOBUS-studio/GStime-JavaScript-Library",
+      "description": "GStime is a lightweight, feature-rich, and easy-to-use JavaScript library designed to simplify HTML document traversing, event handling, and manipulation of content, making it perfect for fast web development. It's a great choice if you're familiar with jQuery but are looking for a smaller library that offers the most commonly used features.",
+      "language": "JavaScript",
+      "stars": 21,
+      "url": "https://github.com/GLOBUS-studio/GStime-JavaScript-Library",
+      "pushed_at": "2026-06-30T18:27:20Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/PHP-Async",
+      "title": "PHP-Async",
+      "full_name": "GLOBUS-studio/PHP-Async",
+      "description": "Bring modern asynchronous programming to PHP with the Async PHP Library, leveraging the capabilities of PHP fibers.",
+      "language": "PHP",
+      "stars": 21,
+      "url": "https://github.com/GLOBUS-studio/PHP-Async",
+      "pushed_at": "2026-04-25T23:11:30Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/PHP-UnCSS",
+      "title": "PHP-UnCSS",
+      "full_name": "GLOBUS-studio/PHP-UnCSS",
+      "description": "Remove unused styles from CSS ",
+      "language": "PHP",
+      "stars": 21,
+      "url": "https://github.com/GLOBUS-studio/PHP-UnCSS",
+      "pushed_at": "2026-06-30T14:20:14Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/SmartIP-Detector",
+      "title": "SmartIP-Detector",
+      "full_name": "GLOBUS-studio/SmartIP-Detector",
+      "description": "SmartIP-Detector is a robust PHP class designed to accurately determine the client's IP address, regardless of the environment. This solution is critical for applications requiring precise user location, ranging from security features like fraud detection to functionality enhancements.",
+      "language": "PHP",
+      "stars": 21,
+      "url": "https://github.com/GLOBUS-studio/SmartIP-Detector",
+      "pushed_at": "2026-06-30T16:31:11Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/SypexGeo",
+      "title": "SypexGeo",
+      "full_name": "GLOBUS-studio/SypexGeo",
+      "description": "Pure-PHP reader for SypexGeo binary IP geolocation databases. Zero dependencies. Country, City & City Max. PHP 8.1+.",
+      "language": "PHP",
+      "stars": 20,
+      "url": "https://github.com/GLOBUS-studio/SypexGeo",
+      "pushed_at": "2026-06-29T16:14:08Z"
+    },
+    {
+      "key": "github:GLOBUS-studio/SimpleServerStat",
+      "title": "SimpleServerStat",
+      "full_name": "GLOBUS-studio/SimpleServerStat",
+      "description": "Lightweight dependency-free server dashboard in PHP and JavaScript for live CPU and RAM monitoring with a Chart.js graph. Non-blocking metric collection on Linux and Windows.",
+      "language": "PHP",
+      "stars": 19,
+      "url": "https://github.com/GLOBUS-studio/SimpleServerStat",
+      "pushed_at": "2026-06-30T13:35:28Z"
+    },
+    {
+      "key": "github:MADEVAL/ReadSightRS",
+      "title": "ReadSightRS",
+      "full_name": "MADEVAL/ReadSightRS",
+      "description": "Multilingual readability library for Rust - 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm. Byte-accurate port of PHP/Python ReadSight, zero network, embedded data.",
+      "language": "TeX",
+      "stars": 12,
+      "url": "https://github.com/MADEVAL/ReadSightRS",
+      "pushed_at": "2026-07-12T21:06:17Z"
+    },
+    {
+      "key": "github:MADEVAL/ReadSightJS",
+      "title": "ReadSightJS",
+      "full_name": "MADEVAL/ReadSightJS",
+      "description": "Multilingual readability engine for Node.js/TypeScript - 86 languages, 17 formulas, TeX (Frank M. Liang) syllable counting. Zero runtime deps, dual ESM+CJS. Byte-accurate port of the PHP ReadSight library.",
+      "language": "TypeScript",
+      "stars": 11,
+      "url": "https://github.com/MADEVAL/ReadSightJS",
+      "pushed_at": "2026-07-13T13:41:26Z"
+    },
+    {
+      "key": "github:MADEVAL/Atomic-Framework-Skills",
+      "title": "Atomic-Framework-Skills",
+      "full_name": "MADEVAL/Atomic-Framework-Skills",
+      "description": "AI Skill for Atomic Framework",
+      "language": "",
+      "stars": 8,
+      "url": "https://github.com/MADEVAL/Atomic-Framework-Skills",
+      "pushed_at": "2026-06-30T14:13:46Z"
+    },
+    {
+      "key": "github:MADEVAL/BotBlocker-Add-on-Developer-Kit",
+      "title": "BotBlocker-Add-on-Developer-Kit",
+      "full_name": "MADEVAL/BotBlocker-Add-on-Developer-Kit",
+      "description": "BotBlocker Add-on Developer Kit for BotBlocker Security, an advanced proactive WordPress protection plugin, anti-bot firewall, and WAF. It includes the Add-on manual, manifest reference, secure ZIP packaging rules, a working sample add-on, public WordPress.org assets, and an AI skill for generating and reviewing production-ready BotBlocker add-ons",
+      "language": "PHP",
+      "stars": 6,
+      "url": "https://github.com/MADEVAL/BotBlocker-Add-on-Developer-Kit",
+      "pushed_at": "2026-10-11T13:37:32Z"
+    },
+    {
+      "key": "github:MADEVAL/HydraLine",
+      "title": "HydraLine",
+      "full_name": "MADEVAL/HydraLine",
+      "description": "Real crawlable HTML for Flutter Web — without giving up Flutter. SEO, SSR, SSG + islands. Works with ANY existing Flutter Web app. Additively, one route at a time.",
+      "language": "Dart",
+      "stars": 1,
+      "url": "https://github.com/MADEVAL/HydraLine",
+      "pushed_at": "2026-07-16T10:03:46Z"
+    }
+  ],
+  "packages": [
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/phpqrcode",
+      "title": "globus-studio/phpqrcode",
+      "description": "Zero-dependency QR Code generator for PHP 7.4-9.0. Dead simple API, full spec compliance, 100% test coverage.",
+      "version": "v1.0.0",
+      "downloads": 1244,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/phpqrcode"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/fatfree-core",
+      "title": "globus-studio/fatfree-core",
+      "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+      "version": "3.9.2.3",
+      "downloads": 1093,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/fatfree-core"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/cortex-atomic",
+      "title": "globus-studio/cortex-atomic",
+      "description": "A multi-engine ORM / ODM for the PHP Fat-Free Framework and Atomic Framework",
+      "version": "v2.0.2",
+      "downloads": 1054,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/cortex-atomic"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/atomic-framework",
+      "title": "globus-studio/atomic-framework",
+      "description": "Atomic Framework – power in minimalism",
+      "version": "v0.2.0",
+      "downloads": 1003,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/atomic-framework"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/sypexgeo",
+      "title": "globus-studio/sypexgeo",
+      "description": "Maintained PHP 8 reader for the SypexGeo binary IP-to-geo database (Country, City, City Max).",
+      "version": "v1.1.1",
+      "downloads": 975,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/sypexgeo"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/php-obfuscator",
+      "title": "globus-studio/php-obfuscator",
+      "description": "A token-based PHP source code obfuscator with full support for PHP 8.3 through 8.5.",
+      "version": "v1.0.2",
+      "downloads": 853,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/php-obfuscator"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/async",
+      "title": "globus-studio/async",
+      "description": "Promise-style asynchronous programming for PHP, built on Revolt fibers and the event loop.",
+      "version": "v1.0.0",
+      "downloads": 810,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/async"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/atom",
+      "title": "globus-studio/atom",
+      "description": "Atom - PHP 8.5 micro-framework. Single PCRE router, template engine, DI, validation, sessions, CLI.",
+      "version": "v0.0.5",
+      "downloads": 779,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/atom"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/readsight",
+      "title": "globus-studio/readsight",
+      "description": "Multilingual readability library for PHP — 86 languages, 17 formulas, TeX-based syllable counting via Frank M. Liang algorithm. Zero dependencies.",
+      "version": "v1.0.7",
+      "downloads": 736,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/readsight"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/fingerprint",
+      "title": "globus-studio/fingerprint",
+      "description": "Server-side PHP fingerprinting library for security, risk scoring, and privacy-aware client identification.",
+      "version": "0.1",
+      "downloads": 704,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/fingerprint"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:ferry-ai/php-inference",
+      "title": "ferry-ai/php-inference",
+      "description": "FerryAI — unified inference API for PHP applications",
+      "version": "v0.1.1",
+      "downloads": 688,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/ferry-ai/php-inference"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/atomic-framework-application",
+      "title": "globus-studio/atomic-framework-application",
+      "description": "Atomic Framework Application",
+      "version": "v0.2.0",
+      "downloads": 654,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/atomic-framework-application"
+    },
+    {
+      "registry": "crates.io",
+      "key": "crates:readsight",
+      "title": "readsight",
+      "description": "Multilingual readability library — 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm.",
+      "version": "1.0.2",
+      "downloads": 6674,
+      "metric": "downloads",
+      "url": "https://crates.io/crates/readsight"
+    },
+    {
+      "registry": "crates.io",
+      "key": "crates:sypexgeo",
+      "title": "sypexgeo",
+      "description": "Pure-Rust reader for the SypexGeo binary IP-to-geo database",
+      "version": "0.1.0",
+      "downloads": 25,
+      "metric": "downloads",
+      "url": "https://crates.io/crates/sypexgeo"
+    },
+    {
+      "registry": "WordPress.org",
+      "key": "wp:botblocker-security",
+      "title": "BotBlocker Security – Complete security platform",
+      "description": "Complete security platform for everyday: block bots, brute-force, viruses, spam, fake crawlers. WAF, 2FA, no-malware, proactive defense.",
+      "version": "1.7.6",
+      "downloads": 3000,
+      "metric": "installs",
+      "url": "https://wordpress.org/plugins/botblocker-security/"
+    },
+    {
+      "registry": "WordPress.org",
+      "key": "wp:globus-debug-control",
+      "title": "GLOBUS Debug Control",
+      "description": "WordPress debug toolkit: filter errors, toggle WP_DEBUG, view error logs, monitor cron, transients, HTTP requests, and more.",
+      "version": "2.2.5",
+      "downloads": 60,
+      "metric": "installs",
+      "url": "https://wordpress.org/plugins/globus-debug-control/"
+    },
+    {
+      "registry": "NPM",
+      "key": "npm:@globus.studio/oat-table",
+      "title": "@globus.studio/oat-table",
+      "description": "Semantic sortable, filterable, selectable table enhancement for Oat UI",
+      "version": "0.1.1",
+      "downloads": 98,
+      "metric": "downloads/mo",
+      "url": "https://www.npmjs.com/package/@globus.studio/oat-table"
+    },
+    {
+      "registry": "NPM",
+      "key": "npm:@globus.studio/fingerprintjs",
+      "title": "@globus.studio/fingerprintjs",
+      "description": "FingerprintJS by BotBlocker: consent-aware browser fingerprinting, bot evidence, and device intelligence for BotBlocker Security integrations.",
+      "version": "0.2.0",
+      "downloads": 59,
+      "metric": "downloads/mo",
+      "url": "https://www.npmjs.com/package/@globus.studio/fingerprintjs"
+    },
+    {
+      "registry": "NPM",
+      "key": "npm:@globus.studio/oat-upload",
+      "title": "@globus.studio/oat-upload",
+      "description": "Dropzone, previews, validation, removal, and progress for native file inputs in Oat UI",
+      "version": "0.1.1",
+      "downloads": 52,
+      "metric": "downloads/mo",
+      "url": "https://www.npmjs.com/package/@globus.studio/oat-upload"
+    },
+    {
+      "registry": "NPM",
+      "key": "npm:@globus.studio/readsight",
+      "title": "@globus.studio/readsight",
+      "description": "Multilingual readability library — 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm. Zero runtime dependencies.",
+      "version": "1.0.0",
+      "downloads": 18,
+      "metric": "downloads/mo",
+      "url": "https://www.npmjs.com/package/@globus.studio/readsight"
+    },
+    {
+      "registry": "NPM",
+      "key": "npm:@globus.studio/gstime",
+      "title": "@globus.studio/gstime",
+      "description": "A lightweight JavaScript library for DOM manipulation, animation, and AJAX (UMD).",
+      "version": "2.0.1",
+      "downloads": 16,
+      "metric": "downloads/mo",
+      "url": "https://www.npmjs.com/package/@globus.studio/gstime"
+    },
+    {
+      "registry": "PyPI",
+      "key": "pypi:readsight",
+      "title": "readsight",
+      "description": "Multilingual readability library for Python — 86 languages, 17 formulas, TeX-based syllable counting via Frank M. Liang algorithm.",
+      "version": "1.0.5",
+      "downloads": 46,
+      "metric": "downloads/mo",
+      "url": "https://pypi.org/project/readsight/"
+    },
+    {
+      "registry": "pub.dev",
+      "key": "pub:hydraline",
+      "title": "hydraline",
+      "description": "Pure-Dart core of Hydraline: real semantic HTML for Flutter Web. DocumentNode, SafeUrl, SEO, JSON-LD, sitemap, robots, audit CLI. + hydraline_server, hydraline_flutter.",
+      "version": "0.0.14",
+      "downloads": 40,
+      "metric": "downloads/30d",
+      "url": "https://pub.dev/packages/hydraline"
+    },
+    {
+      "registry": "pub.dev",
+      "key": "pub:hydraline_flutter",
+      "title": "hydraline_flutter",
+      "description": "Flutter widgets + web runtime for Hydraline. Seo.* widgets, Island zones, IslandHost engine, SSG runner, L2 dispatcher + Service Worker. Re-exports hydraline core.",
+      "version": "0.0.12",
+      "downloads": 35,
+      "metric": "downloads/30d",
+      "url": "https://pub.dev/packages/hydraline_flutter"
+    },
+    {
+      "registry": "pub.dev",
+      "key": "pub:hydraline_server",
+      "title": "hydraline_server",
+      "description": "SSR server for Hydraline: streaming, caching, HTMX helpers. Shelf/Dart Frog middleware, bot-aware transport, ETag/304, anti-cloaking byte-identical bodies. Pairs with hydraline.",
+      "version": "0.0.12",
+      "downloads": 24,
+      "metric": "downloads/30d",
+      "url": "https://pub.dev/packages/hydraline_server"
+    }
+  ],
+  "totals": {
+    "Packagist": {
+      "count": 12,
+      "downloads": 10593,
+      "metric": "downloads"
+    },
+    "crates.io": {
+      "count": 2,
+      "downloads": 6699,
+      "metric": "downloads"
+    },
+    "WordPress.org": {
+      "count": 2,
+      "downloads": 3060,
+      "metric": "installs"
+    },
+    "NPM": {
+      "count": 5,
+      "downloads": 243,
+      "metric": "downloads/mo"
+    },
+    "PyPI": {
+      "count": 1,
+      "downloads": 46,
+      "metric": "downloads/mo"
+    },
+    "pub.dev": {
+      "count": 3,
+      "downloads": 99,
+      "metric": "downloads/30d"
+    },
+    "GitHub": {
+      "count": 35,
+      "stars": 914
+    }
+  }
+}
