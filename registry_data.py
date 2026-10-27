@@ -69,6 +69,8 @@ def github_repos(endpoint: str, repo_type: str) -> list[dict]:
         if not isinstance(data, list) or not data:
             break
         for repo in data:
+            if repo.get("private") or repo.get("visibility") not in ("public", None):
+                continue
             if repo.get("fork") or repo.get("archived"):
                 continue
             if repo.get("name") == ".github" or repo.get("full_name") == "MADEVAL/MADEVAL":
