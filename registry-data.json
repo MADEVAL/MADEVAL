@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-27T11:50:38+00:00",
+  "generated_at": "2026-10-28T03:05:16+00:00",
   "ok": true,
   "errors": [],
   "stale": [],
@@ -11,7 +11,7 @@
       "full_name": "MADEVAL/MindFluence",
       "description": "An AI prompt-skill that turns 20 cognitive biases into high-converting marketing copy. Includes playbooks for ads, landing pages, email sequences, social posts, webinars, and product launches. Language-agnostic. Works with any LLM.",
       "language": "",
-      "stars": 58,
+      "stars": 59,
       "url": "https://github.com/MADEVAL/MindFluence",
       "pushed_at": "2026-07-12T13:37:01Z"
     },
@@ -363,7 +363,7 @@
       "title": "globus-studio/phpqrcode",
       "description": "Zero-dependency QR Code generator for PHP 7.4-9.0. Dead simple API, full spec compliance, 100% test coverage.",
       "version": "v1.0.0",
-      "downloads": 1244,
+      "downloads": 1250,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/phpqrcode"
     },
@@ -413,7 +413,7 @@
       "title": "globus-studio/php-obfuscator",
       "description": "A token-based PHP source code obfuscator with full support for PHP 8.3 through 8.5.",
       "version": "v1.0.2",
-      "downloads": 853,
+      "downloads": 862,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/php-obfuscator"
     },
@@ -483,7 +483,7 @@
       "title": "readsight",
       "description": "Multilingual readability library — 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm.",
       "version": "1.0.2",
-      "downloads": 6674,
+      "downloads": 6852,
       "metric": "downloads",
       "url": "https://crates.io/crates/readsight"
     },
@@ -529,16 +529,6 @@
     },
     {
       "registry": "NPM",
-      "key": "npm:@globus.studio/fingerprintjs",
-      "title": "@globus.studio/fingerprintjs",
-      "description": "FingerprintJS by BotBlocker: consent-aware browser fingerprinting, bot evidence, and device intelligence for BotBlocker Security integrations.",
-      "version": "0.2.0",
-      "downloads": 59,
-      "metric": "downloads/mo",
-      "url": "https://www.npmjs.com/package/@globus.studio/fingerprintjs"
-    },
-    {
-      "registry": "NPM",
       "key": "npm:@globus.studio/oat-upload",
       "title": "@globus.studio/oat-upload",
       "description": "Dropzone, previews, validation, removal, and progress for native file inputs in Oat UI",
@@ -546,6 +536,16 @@
       "downloads": 52,
       "metric": "downloads/mo",
       "url": "https://www.npmjs.com/package/@globus.studio/oat-upload"
+    },
+    {
+      "registry": "NPM",
+      "key": "npm:@globus.studio/fingerprintjs",
+      "title": "@globus.studio/fingerprintjs",
+      "description": "FingerprintJS by BotBlocker: consent-aware browser fingerprinting, bot evidence, and device intelligence for BotBlocker Security integrations.",
+      "version": "0.2.0",
+      "downloads": 51,
+      "metric": "downloads/mo",
+      "url": "https://www.npmjs.com/package/@globus.studio/fingerprintjs"
     },
     {
       "registry": "NPM",
@@ -563,7 +563,7 @@
       "title": "@globus.studio/gstime",
       "description": "A lightweight JavaScript library for DOM manipulation, animation, and AJAX (UMD).",
       "version": "2.0.1",
-      "downloads": 16,
+      "downloads": 10,
       "metric": "downloads/mo",
       "url": "https://www.npmjs.com/package/@globus.studio/gstime"
     },
@@ -611,12 +611,12 @@
   "totals": {
     "Packagist": {
       "count": 12,
-      "downloads": 10593,
+      "downloads": 10608,
       "metric": "downloads"
     },
     "crates.io": {
       "count": 2,
-      "downloads": 6699,
+      "downloads": 6877,
       "metric": "downloads"
     },
     "WordPress.org": {
@@ -626,7 +626,7 @@
     },
     "NPM": {
       "count": 5,
-      "downloads": 243,
+      "downloads": 229,
       "metric": "downloads/mo"
     },
     "PyPI": {
@@ -641,7 +641,7 @@
     },
     "GitHub": {
       "count": 35,
-      "stars": 914
+      "stars": 915
     }
   }
 }
