@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T03:05:30+00:00",
+  "generated_at": "2026-10-29T19:53:35+00:00",
   "ok": true,
   "errors": [],
   "stale": [],
@@ -164,16 +164,6 @@
       "stars": 29,
       "url": "https://github.com/MADEVAL/Atomic-Framework-Application",
       "pushed_at": "2026-08-07T12:28:29Z"
-    },
-    {
-      "key": "github:MADEVAL/My-Bio-Page",
-      "title": "My-Bio-Page",
-      "full_name": "MADEVAL/My-Bio-Page",
-      "description": "Personal link-in-bio page - plain HTML/CSS/JS, dark/light theme, EN/RU, zero dependencies.",
-      "language": "HTML",
-      "stars": 29,
-      "url": "https://github.com/MADEVAL/My-Bio-Page",
-      "pushed_at": "2026-04-09T18:22:31Z"
     },
     {
       "key": "github:MADEVAL/ATOM",
@@ -354,6 +344,16 @@
       "stars": 1,
       "url": "https://github.com/MADEVAL/HydraLine",
       "pushed_at": "2026-07-16T10:03:46Z"
+    },
+    {
+      "key": "github:MADEVAL/humanizer-ua",
+      "title": "humanizer-ua",
+      "full_name": "MADEVAL/humanizer-ua",
+      "description": "Редактура українського тексту: прибирає сліди ШІ, канцелярит, суржик і кальки, зберігаючи зміст і голос автора. 63 маркери, 30 заборон, сканер без залежностей.",
+      "language": "Python",
+      "stars": 0,
+      "url": "https://github.com/MADEVAL/humanizer-ua",
+      "pushed_at": "2026-10-29T19:16:28Z"
     }
   ],
   "packages": [
@@ -363,7 +363,7 @@
       "title": "globus-studio/phpqrcode",
       "description": "Zero-dependency QR Code generator for PHP 7.4-9.0. Dead simple API, full spec compliance, 100% test coverage.",
       "version": "v1.0.0",
-      "downloads": 1265,
+      "downloads": 1286,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/phpqrcode"
     },
@@ -373,7 +373,7 @@
       "title": "globus-studio/fatfree-core",
       "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
       "version": "3.9.2.3",
-      "downloads": 1103,
+      "downloads": 1113,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/fatfree-core"
     },
@@ -383,7 +383,7 @@
       "title": "globus-studio/cortex-atomic",
       "description": "A multi-engine ORM / ODM for the PHP Fat-Free Framework and Atomic Framework",
       "version": "v2.0.2",
-      "downloads": 1064,
+      "downloads": 1074,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/cortex-atomic"
     },
@@ -393,7 +393,7 @@
       "title": "globus-studio/atomic-framework",
       "description": "Atomic Framework – power in minimalism",
       "version": "v0.2.0",
-      "downloads": 1013,
+      "downloads": 1023,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atomic-framework"
     },
@@ -403,7 +403,7 @@
       "title": "globus-studio/sypexgeo",
       "description": "Maintained PHP 8 reader for the SypexGeo binary IP-to-geo database (Country, City, City Max).",
       "version": "v1.1.1",
-      "downloads": 992,
+      "downloads": 1008,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/sypexgeo"
     },
@@ -413,7 +413,7 @@
       "title": "globus-studio/php-obfuscator",
       "description": "A token-based PHP source code obfuscator with full support for PHP 8.3 through 8.5.",
       "version": "v1.0.2",
-      "downloads": 876,
+      "downloads": 890,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/php-obfuscator"
     },
@@ -423,7 +423,7 @@
       "title": "globus-studio/async",
       "description": "Promise-style asynchronous programming for PHP, built on Revolt fibers and the event loop.",
       "version": "v1.0.0",
-      "downloads": 820,
+      "downloads": 830,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/async"
     },
@@ -433,7 +433,7 @@
       "title": "globus-studio/atom",
       "description": "Atom - PHP 8.5 micro-framework. Single PCRE router, template engine, DI, validation, sessions, CLI.",
       "version": "v0.0.5",
-      "downloads": 782,
+      "downloads": 792,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atom"
     },
@@ -443,7 +443,7 @@
       "title": "globus-studio/readsight",
       "description": "Multilingual readability library for PHP — 86 languages, 17 formulas, TeX-based syllable counting via Frank M. Liang algorithm. Zero dependencies.",
       "version": "v1.0.7",
-      "downloads": 747,
+      "downloads": 756,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/readsight"
     },
@@ -453,7 +453,7 @@
       "title": "globus-studio/fingerprint",
       "description": "Server-side PHP fingerprinting library for security, risk scoring, and privacy-aware client identification.",
       "version": "0.1",
-      "downloads": 714,
+      "downloads": 724,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/fingerprint"
     },
@@ -463,7 +463,7 @@
       "title": "ferry-ai/php-inference",
       "description": "FerryAI — unified inference API for PHP applications",
       "version": "v0.1.1",
-      "downloads": 698,
+      "downloads": 708,
       "metric": "downloads",
       "url": "https://packagist.org/packages/ferry-ai/php-inference"
     },
@@ -473,7 +473,7 @@
       "title": "globus-studio/atomic-framework-application",
       "description": "Atomic Framework Application",
       "version": "v0.2.0",
-      "downloads": 663,
+      "downloads": 673,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atomic-framework-application"
     },
@@ -483,7 +483,7 @@
       "title": "readsight",
       "description": "Multilingual readability library — 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm.",
       "version": "1.0.2",
-      "downloads": 7138,
+      "downloads": 7224,
       "metric": "downloads",
       "url": "https://crates.io/crates/readsight"
     },
@@ -583,7 +583,7 @@
       "title": "hydraline",
       "description": "Pure-Dart core of Hydraline: real semantic HTML for Flutter Web. DocumentNode, SafeUrl, SEO, JSON-LD, sitemap, robots, audit CLI. + hydraline_server, hydraline_flutter.",
       "version": "0.0.14",
-      "downloads": 40,
+      "downloads": 41,
       "metric": "downloads/30d",
       "url": "https://pub.dev/packages/hydraline"
     },
@@ -593,7 +593,7 @@
       "title": "hydraline_flutter",
       "description": "Flutter widgets + web runtime for Hydraline. Seo.* widgets, Island zones, IslandHost engine, SSG runner, L2 dispatcher + Service Worker. Re-exports hydraline core.",
       "version": "0.0.12",
-      "downloads": 35,
+      "downloads": 36,
       "metric": "downloads/30d",
       "url": "https://pub.dev/packages/hydraline_flutter"
     },
@@ -603,7 +603,7 @@
       "title": "hydraline_server",
       "description": "SSR server for Hydraline: streaming, caching, HTMX helpers. Shelf/Dart Frog middleware, bot-aware transport, ETag/304, anti-cloaking byte-identical bodies. Pairs with hydraline.",
       "version": "0.0.12",
-      "downloads": 24,
+      "downloads": 25,
       "metric": "downloads/30d",
       "url": "https://pub.dev/packages/hydraline_server"
     }
@@ -611,12 +611,12 @@
   "totals": {
     "Packagist": {
       "count": 12,
-      "downloads": 10737,
+      "downloads": 10877,
       "metric": "downloads"
     },
     "crates.io": {
       "count": 2,
-      "downloads": 7163,
+      "downloads": 7249,
       "metric": "downloads"
     },
     "WordPress.org": {
@@ -636,12 +636,12 @@
     },
     "pub.dev": {
       "count": 3,
-      "downloads": 99,
+      "downloads": 102,
       "metric": "downloads/30d"
     },
     "GitHub": {
       "count": 35,
-      "stars": 915
+      "stars": 886
     }
   }
 }
