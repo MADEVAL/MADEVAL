@@ -26,6 +26,14 @@ TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 REGISTRIES = ["Packagist", "crates.io", "WordPress.org", "NPM", "PyPI", "pub.dev"]
 TIMEOUT = 30
 
+# Репозитории, которые не попадают в витрину: личные страницы, служебные
+# поделки и всё, что не продаёт инженерную экспертизу. Список читают сайты
+# globus.studio и leonidov.dev из registry-data.json, поэтому правится здесь,
+# а не фильтрами в темах.
+EXCLUDED_REPOS = {
+    "My-Bio-Page",
+}
+
 
 def get_json(url: str, headers: dict | None = None):
     hdrs = {"User-Agent": UA, "Accept": "application/json"}
@@ -72,6 +80,8 @@ def github_repos(endpoint: str, repo_type: str) -> list[dict]:
             if repo.get("private") or repo.get("visibility") not in ("public", None):
                 continue
             if repo.get("fork") or repo.get("archived"):
+                continue
+            if repo.get("name") in EXCLUDED_REPOS or repo.get("full_name") in EXCLUDED_REPOS:
                 continue
             if repo.get("name") == ".github" or repo.get("full_name") == "MADEVAL/MADEVAL":
                 continue
