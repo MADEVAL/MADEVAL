@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T19:53:35+00:00",
+  "generated_at": "2026-10-30T03:05:16+00:00",
   "ok": true,
   "errors": [],
   "stale": [],
@@ -13,7 +13,7 @@
       "language": "",
       "stars": 59,
       "url": "https://github.com/MADEVAL/MindFluence",
-      "pushed_at": "2026-07-12T13:37:01Z"
+      "pushed_at": "2026-10-29T23:06:52Z"
     },
     {
       "key": "github:MADEVAL/Pre-Mortem-Skill",
@@ -70,10 +70,10 @@
       "title": "AngleCraft",
       "full_name": "MADEVAL/AngleCraft",
       "description": "Turn dry expert topics into high-engagement content with 7+2 journalistic angle types. An AI skill for any LLM, any niche, any language.",
-      "language": "",
+      "language": "Python",
       "stars": 33,
       "url": "https://github.com/MADEVAL/AngleCraft",
-      "pushed_at": "2026-06-30T21:10:54Z"
+      "pushed_at": "2026-10-29T23:05:43Z"
     },
     {
       "key": "github:MADEVAL/FerryAI",
@@ -353,7 +353,7 @@
       "language": "Python",
       "stars": 0,
       "url": "https://github.com/MADEVAL/humanizer-ua",
-      "pushed_at": "2026-10-29T19:16:28Z"
+      "pushed_at": "2026-10-29T22:40:55Z"
     }
   ],
   "packages": [
@@ -363,7 +363,7 @@
       "title": "globus-studio/phpqrcode",
       "description": "Zero-dependency QR Code generator for PHP 7.4-9.0. Dead simple API, full spec compliance, 100% test coverage.",
       "version": "v1.0.0",
-      "downloads": 1286,
+      "downloads": 1287,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/phpqrcode"
     },
@@ -413,7 +413,7 @@
       "title": "globus-studio/php-obfuscator",
       "description": "A token-based PHP source code obfuscator with full support for PHP 8.3 through 8.5.",
       "version": "v1.0.2",
-      "downloads": 890,
+      "downloads": 892,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/php-obfuscator"
     },
@@ -483,7 +483,7 @@
       "title": "readsight",
       "description": "Multilingual readability library — 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm.",
       "version": "1.0.2",
-      "downloads": 7224,
+      "downloads": 7325,
       "metric": "downloads",
       "url": "https://crates.io/crates/readsight"
     },
@@ -611,12 +611,12 @@
   "totals": {
     "Packagist": {
       "count": 12,
-      "downloads": 10877,
+      "downloads": 10880,
       "metric": "downloads"
     },
     "crates.io": {
       "count": 2,
-      "downloads": 7249,
+      "downloads": 7350,
       "metric": "downloads"
     },
     "WordPress.org": {
