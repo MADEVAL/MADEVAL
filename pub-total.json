@@ -6,8 +6,8 @@
   "total": 104,
   "packages": 3,
   "details": {
-    "hydraline": 38,
     "hydraline_flutter": 40,
+    "hydraline": 38,
     "hydraline_server": 26
   }
 }
