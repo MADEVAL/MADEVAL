@@ -1,11 +1,11 @@
 {
     "schemaVersion": 1,
     "label": "PyPI",
-    "message": "3802",
+    "message": "3804",
     "color": "3775A9",
-    "total": 3802,
+    "total": 3804,
     "packages": 1,
     "details": {
-        "readsight": 3802
+        "readsight": 3804
     }
 }
