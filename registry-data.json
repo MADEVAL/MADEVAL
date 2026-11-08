@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-07T03:04:06+00:00",
+  "generated_at": "2026-11-08T03:04:35+00:00",
   "ok": true,
   "errors": [],
   "stale": [],
@@ -9,11 +9,11 @@
       "key": "github:MADEVAL/MindFluence",
       "title": "MindFluence",
       "full_name": "MADEVAL/MindFluence",
-      "description": "An AI prompt-skill that turns 20 cognitive biases into high-converting marketing copy. Includes playbooks for ads, landing pages, email sequences, social posts, webinars, and product launches. Language-agnostic. Works with any LLM.",
-      "language": "",
+      "description": "An AI prompt-skill that turns 20 cognitive biases into high-converting marketing copy. Playbooks for ads, landing pages, email, social, webinars, and launches.",
+      "language": "Python",
       "stars": 73,
       "url": "https://github.com/MADEVAL/MindFluence",
-      "pushed_at": "2026-10-29T23:06:52Z"
+      "pushed_at": "2026-11-07T15:33:25Z"
     },
     {
       "key": "github:MADEVAL/Pre-Mortem-Skill",
@@ -29,21 +29,21 @@
       "key": "github:MADEVAL/AngleCraft",
       "title": "AngleCraft",
       "full_name": "MADEVAL/AngleCraft",
-      "description": "Turn dry expert topics into high-engagement content with 7+2 journalistic angle types. An AI skill for any LLM, any niche, any language.",
+      "description": "Turn dry expert topics into high-engagement content with 7 core angles + 3 foundational lenses. An AI skill for any LLM, any niche, any language.",
       "language": "Python",
       "stars": 46,
       "url": "https://github.com/MADEVAL/AngleCraft",
-      "pushed_at": "2026-10-29T23:05:43Z"
+      "pushed_at": "2026-11-07T15:33:26Z"
     },
     {
       "key": "github:MADEVAL/HumanAI",
       "title": "HumanAI",
       "full_name": "MADEVAL/HumanAI",
-      "description": "AI skill for rewriting machine-generated text to sound human-written across 9 languages - 5-stage pipeline: cleanup → specificity → tone → rhythm → proofread.",
+      "description": "AI skill for rewriting machine-generated text to sound human-written across 9 languages. Active v4.1.",
       "language": "PowerShell",
       "stars": 46,
       "url": "https://github.com/MADEVAL/HumanAI",
-      "pushed_at": "2026-07-12T15:33:15Z"
+      "pushed_at": "2026-11-07T15:33:25Z"
     },
     {
       "key": "github:MADEVAL/FerryAI",
@@ -139,11 +139,11 @@
       "key": "github:MADEVAL/RankWise",
       "title": "RankWise",
       "full_name": "MADEVAL/RankWise",
-      "description": "SEO Content Engine for LLMs - a prompt-engineering system that turns any capable AI into a world-class SEO strategist: generate, rewrite, and audit content against 49 ranking factors with multilingual support.",
+      "description": "SEO Content Engine for LLMs - generate, rewrite, and audit content against 49 ranking factors with multilingual support.",
       "language": "Python",
       "stars": 37,
       "url": "https://github.com/MADEVAL/RankWise",
-      "pushed_at": "2026-07-12T15:31:13Z"
+      "pushed_at": "2026-11-07T15:33:25Z"
     },
     {
       "key": "github:MADEVAL/WP-robots-generator",
@@ -323,7 +323,7 @@
       "language": "Python",
       "stars": 16,
       "url": "https://github.com/MADEVAL/humanizer-ua",
-      "pushed_at": "2026-10-30T13:06:35Z"
+      "pushed_at": "2026-11-07T15:33:25Z"
     },
     {
       "key": "github:MADEVAL/Atomic-Framework-Skills",
@@ -343,7 +343,7 @@
       "language": "PHP",
       "stars": 15,
       "url": "https://github.com/MADEVAL/BotBlocker-Add-on-Developer-Kit",
-      "pushed_at": "2026-10-11T13:37:32Z"
+      "pushed_at": "2026-11-07T20:06:46Z"
     },
     {
       "key": "github:MADEVAL/HydraLine",
@@ -364,6 +364,26 @@
       "stars": 5,
       "url": "https://github.com/MADEVAL/globus-debug-control",
       "pushed_at": "2026-11-04T23:41:41Z"
+    },
+    {
+      "key": "github:MADEVAL/cold-email-coach",
+      "title": "cold-email-coach",
+      "full_name": "MADEVAL/cold-email-coach",
+      "description": "Write cold emails people actually answer. A skill for AI agents that drafts, reviews, and rewrites outreach the way Josh Braun and Will Allred teach it: short, human, one question, no pitch.",
+      "language": "Python",
+      "stars": 0,
+      "url": "https://github.com/MADEVAL/cold-email-coach",
+      "pushed_at": "2026-11-07T15:33:25Z"
+    },
+    {
+      "key": "github:MADEVAL/wordpress-security-ops",
+      "title": "wordpress-security-ops",
+      "full_name": "MADEVAL/wordpress-security-ops",
+      "description": "Operational WordPress security skill: audit, harden, investigate and repair hacked sites. Works with BotBlocker Security, WP-CLI, SSH, host logs or the admin UI alone.",
+      "language": "PHP",
+      "stars": 0,
+      "url": "https://github.com/MADEVAL/wordpress-security-ops",
+      "pushed_at": "2026-11-07T23:57:42Z"
     }
   ],
   "packages": [
@@ -373,7 +393,7 @@
       "title": "globus-studio/phpqrcode",
       "description": "Zero-dependency QR Code generator for PHP 7.4-9.0. Dead simple API, full spec compliance, 100% test coverage.",
       "version": "v1.0.0",
-      "downloads": 1410,
+      "downloads": 1420,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/phpqrcode"
     },
@@ -383,7 +403,7 @@
       "title": "globus-studio/fatfree-core",
       "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
       "version": "3.9.2.3",
-      "downloads": 1200,
+      "downloads": 1213,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/fatfree-core"
     },
@@ -393,7 +413,7 @@
       "title": "globus-studio/cortex-atomic",
       "description": "A multi-engine ORM / ODM for the PHP Fat-Free Framework and Atomic Framework",
       "version": "v2.0.2",
-      "downloads": 1162,
+      "downloads": 1175,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/cortex-atomic"
     },
@@ -403,7 +423,7 @@
       "title": "globus-studio/sypexgeo",
       "description": "Maintained PHP 8 reader for the SypexGeo binary IP-to-geo database (Country, City, City Max).",
       "version": "v1.1.1",
-      "downloads": 1131,
+      "downloads": 1140,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/sypexgeo"
     },
@@ -413,7 +433,7 @@
       "title": "globus-studio/atomic-framework",
       "description": "Atomic Framework – power in minimalism",
       "version": "v0.2.0",
-      "downloads": 1103,
+      "downloads": 1113,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atomic-framework"
     },
@@ -423,7 +443,7 @@
       "title": "globus-studio/php-obfuscator",
       "description": "A token-based PHP source code obfuscator with full support for PHP 8.3 through 8.5.",
       "version": "v1.0.2",
-      "downloads": 1008,
+      "downloads": 1018,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/php-obfuscator"
     },
@@ -433,7 +453,7 @@
       "title": "globus-studio/async",
       "description": "Promise-style asynchronous programming for PHP, built on Revolt fibers and the event loop.",
       "version": "v1.0.0",
-      "downloads": 913,
+      "downloads": 923,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/async"
     },
@@ -443,7 +463,7 @@
       "title": "globus-studio/atom",
       "description": "Atom - PHP 8.5 micro-framework. Single PCRE router, template engine, DI, validation, sessions, CLI.",
       "version": "v0.0.5",
-      "downloads": 866,
+      "downloads": 873,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atom"
     },
@@ -453,7 +473,7 @@
       "title": "globus-studio/readsight",
       "description": "Multilingual readability library for PHP — 86 languages, 17 formulas, TeX-based syllable counting via Frank M. Liang algorithm. Zero dependencies.",
       "version": "v1.0.7",
-      "downloads": 848,
+      "downloads": 865,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/readsight"
     },
@@ -463,7 +483,7 @@
       "title": "globus-studio/fingerprint",
       "description": "Server-side PHP fingerprinting library for security, risk scoring, and privacy-aware client identification.",
       "version": "0.1",
-      "downloads": 798,
+      "downloads": 804,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/fingerprint"
     },
@@ -483,7 +503,7 @@
       "title": "globus-studio/atomic-framework-application",
       "description": "Atomic Framework Application",
       "version": "v0.2.0",
-      "downloads": 753,
+      "downloads": 763,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atomic-framework-application"
     },
@@ -493,7 +513,7 @@
       "title": "readsight",
       "description": "Multilingual readability library — 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm.",
       "version": "1.0.2",
-      "downloads": 9257,
+      "downloads": 9606,
       "metric": "downloads",
       "url": "https://crates.io/crates/readsight"
     },
@@ -512,7 +532,7 @@
       "key": "wp:botblocker-security",
       "title": "BotBlocker Security – Complete security platform",
       "description": "Complete security platform for everyday: block bots, brute-force, viruses, spam, fake crawlers. WAF, 2FA, no-malware, proactive defense.",
-      "version": "1.7.9",
+      "version": "1.7.10",
       "downloads": 3000,
       "metric": "installs",
       "url": "https://wordpress.org/plugins/botblocker-security/"
@@ -613,7 +633,7 @@
       "title": "hydraline_server",
       "description": "SSR server for Hydraline: streaming, caching, HTMX helpers. Shelf/Dart Frog middleware, bot-aware transport, ETag/304, anti-cloaking byte-identical bodies. Pairs with hydraline.",
       "version": "0.0.12",
-      "downloads": 31,
+      "downloads": 30,
       "metric": "downloads/30d",
       "url": "https://pub.dev/packages/hydraline_server"
     }
@@ -621,12 +641,12 @@
   "totals": {
     "Packagist": {
       "count": 12,
-      "downloads": 11980,
+      "downloads": 12095,
       "metric": "downloads"
     },
     "crates.io": {
       "count": 2,
-      "downloads": 9283,
+      "downloads": 9632,
       "metric": "downloads"
     },
     "WordPress.org": {
@@ -646,11 +666,11 @@
     },
     "pub.dev": {
       "count": 3,
-      "downloads": 116,
+      "downloads": 115,
       "metric": "downloads/30d"
     },
     "GitHub": {
-      "count": 36,
+      "count": 38,
       "stars": 1157
     }
   }
