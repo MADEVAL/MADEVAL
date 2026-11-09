@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T03:04:35+00:00",
+  "generated_at": "2026-11-09T03:04:40+00:00",
   "ok": true,
   "errors": [],
   "stale": [],
@@ -21,7 +21,7 @@
       "full_name": "MADEVAL/Pre-Mortem-Skill",
       "description": "A structured failure-analysis workflow that assumes your plan already failed and works backward to find every reason why. Based on Gary Klein's premortem method (Harvard Business Review), validated by prospective-hindsight research from Wharton and Cornell",
       "language": "",
-      "stars": 52,
+      "stars": 54,
       "url": "https://github.com/MADEVAL/Pre-Mortem-Skill",
       "pushed_at": "2026-06-30T14:13:32Z"
     },
@@ -53,7 +53,7 @@
       "language": "PHP",
       "stars": 43,
       "url": "https://github.com/MADEVAL/FerryAI",
-      "pushed_at": "2026-10-18T04:36:12Z"
+      "pushed_at": "2026-11-08T04:35:21Z"
     },
     {
       "key": "github:MADEVAL/Oat-Table",
@@ -154,6 +154,16 @@
       "stars": 37,
       "url": "https://github.com/MADEVAL/WP-robots-generator",
       "pushed_at": "2026-06-30T15:02:49Z"
+    },
+    {
+      "key": "github:MADEVAL/Link-in-Bio-with-MCP-Server",
+      "title": "Link-in-Bio-with-MCP-Server",
+      "full_name": "MADEVAL/Link-in-Bio-with-MCP-Server",
+      "description": "Personal link-in-bio page on plain PHP 8.5: one JSON tree renders EN/RU pages, SEO, JSON-LD and the sitemap. An MCP server edits links over HTTP - token auth, atomic writes, backups. nginx + PHP-FPM, no framework, no build step, 100% line coverage.",
+      "language": "PHP",
+      "stars": 36,
+      "url": "https://github.com/MADEVAL/Link-in-Bio-with-MCP-Server",
+      "pushed_at": "2026-11-09T00:57:08Z"
     },
     {
       "key": "github:GLOBUS-studio/SypexGeoRS",
@@ -343,7 +353,7 @@
       "language": "PHP",
       "stars": 15,
       "url": "https://github.com/MADEVAL/BotBlocker-Add-on-Developer-Kit",
-      "pushed_at": "2026-11-07T20:06:46Z"
+      "pushed_at": "2026-11-08T18:22:57Z"
     },
     {
       "key": "github:MADEVAL/HydraLine",
@@ -393,7 +403,7 @@
       "title": "globus-studio/phpqrcode",
       "description": "Zero-dependency QR Code generator for PHP 7.4-9.0. Dead simple API, full spec compliance, 100% test coverage.",
       "version": "v1.0.0",
-      "downloads": 1420,
+      "downloads": 1431,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/phpqrcode"
     },
@@ -403,7 +413,7 @@
       "title": "globus-studio/fatfree-core",
       "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
       "version": "3.9.2.3",
-      "downloads": 1213,
+      "downloads": 1223,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/fatfree-core"
     },
@@ -413,7 +423,7 @@
       "title": "globus-studio/cortex-atomic",
       "description": "A multi-engine ORM / ODM for the PHP Fat-Free Framework and Atomic Framework",
       "version": "v2.0.2",
-      "downloads": 1175,
+      "downloads": 1185,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/cortex-atomic"
     },
@@ -423,7 +433,7 @@
       "title": "globus-studio/sypexgeo",
       "description": "Maintained PHP 8 reader for the SypexGeo binary IP-to-geo database (Country, City, City Max).",
       "version": "v1.1.1",
-      "downloads": 1140,
+      "downloads": 1150,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/sypexgeo"
     },
@@ -433,7 +443,7 @@
       "title": "globus-studio/atomic-framework",
       "description": "Atomic Framework – power in minimalism",
       "version": "v0.2.0",
-      "downloads": 1113,
+      "downloads": 1123,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atomic-framework"
     },
@@ -443,7 +453,7 @@
       "title": "globus-studio/php-obfuscator",
       "description": "A token-based PHP source code obfuscator with full support for PHP 8.3 through 8.5.",
       "version": "v1.0.2",
-      "downloads": 1018,
+      "downloads": 1028,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/php-obfuscator"
     },
@@ -453,7 +463,7 @@
       "title": "globus-studio/async",
       "description": "Promise-style asynchronous programming for PHP, built on Revolt fibers and the event loop.",
       "version": "v1.0.0",
-      "downloads": 923,
+      "downloads": 933,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/async"
     },
@@ -463,7 +473,7 @@
       "title": "globus-studio/atom",
       "description": "Atom - PHP 8.5 micro-framework. Single PCRE router, template engine, DI, validation, sessions, CLI.",
       "version": "v0.0.5",
-      "downloads": 873,
+      "downloads": 876,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atom"
     },
@@ -473,7 +483,7 @@
       "title": "globus-studio/readsight",
       "description": "Multilingual readability library for PHP — 86 languages, 17 formulas, TeX-based syllable counting via Frank M. Liang algorithm. Zero dependencies.",
       "version": "v1.0.7",
-      "downloads": 865,
+      "downloads": 871,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/readsight"
     },
@@ -483,7 +493,7 @@
       "title": "globus-studio/fingerprint",
       "description": "Server-side PHP fingerprinting library for security, risk scoring, and privacy-aware client identification.",
       "version": "0.1",
-      "downloads": 804,
+      "downloads": 814,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/fingerprint"
     },
@@ -493,7 +503,7 @@
       "title": "ferry-ai/php-inference",
       "description": "FerryAI — unified inference API for PHP applications",
       "version": "v0.1.1",
-      "downloads": 788,
+      "downloads": 798,
       "metric": "downloads",
       "url": "https://packagist.org/packages/ferry-ai/php-inference"
     },
@@ -503,7 +513,7 @@
       "title": "globus-studio/atomic-framework-application",
       "description": "Atomic Framework Application",
       "version": "v0.2.0",
-      "downloads": 763,
+      "downloads": 770,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atomic-framework-application"
     },
@@ -513,7 +523,7 @@
       "title": "readsight",
       "description": "Multilingual readability library — 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm.",
       "version": "1.0.2",
-      "downloads": 9606,
+      "downloads": 9837,
       "metric": "downloads",
       "url": "https://crates.io/crates/readsight"
     },
@@ -553,7 +563,7 @@
       "title": "@globus.studio/oat-table",
       "description": "Semantic sortable, filterable, selectable table enhancement for Oat UI",
       "version": "0.1.1",
-      "downloads": 101,
+      "downloads": 105,
       "metric": "downloads/mo",
       "url": "https://www.npmjs.com/package/@globus.studio/oat-table"
     },
@@ -563,7 +573,7 @@
       "title": "@globus.studio/oat-upload",
       "description": "Dropzone, previews, validation, removal, and progress for native file inputs in Oat UI",
       "version": "0.1.1",
-      "downloads": 66,
+      "downloads": 72,
       "metric": "downloads/mo",
       "url": "https://www.npmjs.com/package/@globus.studio/oat-upload"
     },
@@ -613,7 +623,7 @@
       "title": "hydraline_flutter",
       "description": "Flutter widgets + web runtime for Hydraline. Seo.* widgets, Island zones, IslandHost engine, SSG runner, L2 dispatcher + Service Worker. Re-exports hydraline core.",
       "version": "0.0.12",
-      "downloads": 47,
+      "downloads": 49,
       "metric": "downloads/30d",
       "url": "https://pub.dev/packages/hydraline_flutter"
     },
@@ -623,7 +633,7 @@
       "title": "hydraline",
       "description": "Pure-Dart core of Hydraline: real semantic HTML for Flutter Web. DocumentNode, SafeUrl, SEO, JSON-LD, sitemap, robots, audit CLI. + hydraline_server, hydraline_flutter.",
       "version": "0.0.14",
-      "downloads": 38,
+      "downloads": 43,
       "metric": "downloads/30d",
       "url": "https://pub.dev/packages/hydraline"
     },
@@ -633,7 +643,7 @@
       "title": "hydraline_server",
       "description": "SSR server for Hydraline: streaming, caching, HTMX helpers. Shelf/Dart Frog middleware, bot-aware transport, ETag/304, anti-cloaking byte-identical bodies. Pairs with hydraline.",
       "version": "0.0.12",
-      "downloads": 30,
+      "downloads": 32,
       "metric": "downloads/30d",
       "url": "https://pub.dev/packages/hydraline_server"
     }
@@ -641,12 +651,12 @@
   "totals": {
     "Packagist": {
       "count": 12,
-      "downloads": 12095,
+      "downloads": 12202,
       "metric": "downloads"
     },
     "crates.io": {
       "count": 2,
-      "downloads": 9632,
+      "downloads": 9863,
       "metric": "downloads"
     },
     "WordPress.org": {
@@ -656,7 +666,7 @@
     },
     "NPM": {
       "count": 5,
-      "downloads": 249,
+      "downloads": 259,
       "metric": "downloads/mo"
     },
     "PyPI": {
@@ -666,12 +676,12 @@
     },
     "pub.dev": {
       "count": 3,
-      "downloads": 115,
+      "downloads": 124,
       "metric": "downloads/30d"
     },
     "GitHub": {
-      "count": 38,
-      "stars": 1157
+      "count": 39,
+      "stars": 1195
     }
   }
 }
