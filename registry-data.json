@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-23T03:04:55+00:00",
+  "generated_at": "2026-11-24T03:04:10+00:00",
   "ok": true,
   "errors": [],
   "stale": [],
@@ -51,7 +51,7 @@
       "full_name": "MADEVAL/HumanAI",
       "description": "AI skill for rewriting machine-generated text to sound human-written across 9 languages. Active v4.1.",
       "language": "PowerShell",
-      "stars": 56,
+      "stars": 57,
       "url": "https://github.com/MADEVAL/HumanAI",
       "pushed_at": "2026-11-07T15:33:25Z"
     },
@@ -93,7 +93,7 @@
       "language": "PHP",
       "stars": 46,
       "url": "https://github.com/MADEVAL/Atomic-Framework",
-      "pushed_at": "2026-11-22T18:01:26Z"
+      "pushed_at": "2026-11-23T20:31:43Z"
     },
     {
       "key": "github:MADEVAL/Link-in-Bio-with-MCP-Server",
@@ -403,7 +403,7 @@
       "language": "",
       "stars": 14,
       "url": "https://github.com/MADEVAL/free-proxy-list",
-      "pushed_at": "2026-11-22T10:56:52Z"
+      "pushed_at": "2026-11-23T12:01:49Z"
     },
     {
       "key": "github:MADEVAL/Wordpress-Plugin-Requirements",
@@ -423,7 +423,7 @@
       "title": "globus-studio/php-obfuscator",
       "description": "A token-based PHP source code obfuscator with full support for PHP 8.3 through 8.5.",
       "version": "v1.0.2",
-      "downloads": 1689,
+      "downloads": 1709,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/php-obfuscator"
     },
@@ -433,7 +433,7 @@
       "title": "globus-studio/phpqrcode",
       "description": "Zero-dependency QR Code generator for PHP 7.4-9.0. Dead simple API, full spec compliance, 100% test coverage.",
       "version": "v1.0.0",
-      "downloads": 1653,
+      "downloads": 1665,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/phpqrcode"
     },
@@ -443,7 +443,7 @@
       "title": "globus-studio/fatfree-core",
       "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
       "version": "3.9.2.3",
-      "downloads": 1386,
+      "downloads": 1401,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/fatfree-core"
     },
@@ -453,7 +453,7 @@
       "title": "globus-studio/cortex-atomic",
       "description": "A multi-engine ORM / ODM for the PHP Fat-Free Framework and Atomic Framework",
       "version": "v2.0.2",
-      "downloads": 1354,
+      "downloads": 1370,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/cortex-atomic"
     },
@@ -463,7 +463,7 @@
       "title": "globus-studio/sypexgeo",
       "description": "Maintained PHP 8 reader for the SypexGeo binary IP-to-geo database (Country, City, City Max).",
       "version": "v1.1.1",
-      "downloads": 1345,
+      "downloads": 1367,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/sypexgeo"
     },
@@ -473,19 +473,9 @@
       "title": "globus-studio/atomic-framework",
       "description": "Atomic Framework – power in minimalism",
       "version": "v0.2.0",
-      "downloads": 1270,
+      "downloads": 1284,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atomic-framework"
-    },
-    {
-      "registry": "Packagist",
-      "key": "packagist:globus-studio/async",
-      "title": "globus-studio/async",
-      "description": "Promise-style asynchronous programming for PHP, built on Revolt fibers and the event loop.",
-      "version": "v1.0.0",
-      "downloads": 1075,
-      "metric": "downloads",
-      "url": "https://packagist.org/packages/globus-studio/async"
     },
     {
       "registry": "Packagist",
@@ -493,9 +483,19 @@
       "title": "globus-studio/readsight",
       "description": "Multilingual readability library for PHP — 86 languages, 17 formulas, TeX-based syllable counting via Frank M. Liang algorithm. Zero dependencies.",
       "version": "v1.0.7",
-      "downloads": 1072,
+      "downloads": 1090,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/readsight"
+    },
+    {
+      "registry": "Packagist",
+      "key": "packagist:globus-studio/async",
+      "title": "globus-studio/async",
+      "description": "Promise-style asynchronous programming for PHP, built on Revolt fibers and the event loop.",
+      "version": "v1.0.0",
+      "downloads": 1085,
+      "metric": "downloads",
+      "url": "https://packagist.org/packages/globus-studio/async"
     },
     {
       "registry": "Packagist",
@@ -503,7 +503,7 @@
       "title": "globus-studio/atom",
       "description": "Atom - PHP 8.5 micro-framework. Single PCRE router, template engine, DI, validation, sessions, CLI.",
       "version": "v0.0.5",
-      "downloads": 1011,
+      "downloads": 1021,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atom"
     },
@@ -513,7 +513,7 @@
       "title": "globus-studio/fingerprint",
       "description": "Server-side PHP fingerprinting library for security, risk scoring, and privacy-aware client identification.",
       "version": "0.1",
-      "downloads": 940,
+      "downloads": 947,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/fingerprint"
     },
@@ -523,7 +523,7 @@
       "title": "ferry-ai/php-inference",
       "description": "FerryAI — unified inference API for PHP applications",
       "version": "v0.1.1",
-      "downloads": 928,
+      "downloads": 938,
       "metric": "downloads",
       "url": "https://packagist.org/packages/ferry-ai/php-inference"
     },
@@ -533,7 +533,7 @@
       "title": "globus-studio/atomic-framework-application",
       "description": "Atomic Framework Application",
       "version": "v0.2.0",
-      "downloads": 909,
+      "downloads": 918,
       "metric": "downloads",
       "url": "https://packagist.org/packages/globus-studio/atomic-framework-application"
     },
@@ -543,7 +543,7 @@
       "title": "readsight",
       "description": "Multilingual readability library — 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm.",
       "version": "1.0.2",
-      "downloads": 15553,
+      "downloads": 15603,
       "metric": "downloads",
       "url": "https://crates.io/crates/readsight"
     },
@@ -653,7 +653,7 @@
       "title": "hydraline_flutter",
       "description": "Flutter widgets + web runtime for Hydraline. Seo.* widgets, Island zones, IslandHost engine, SSG runner, L2 dispatcher + Service Worker. Re-exports hydraline core.",
       "version": "0.0.12",
-      "downloads": 47,
+      "downloads": 42,
       "metric": "downloads/30d",
       "url": "https://pub.dev/packages/hydraline_flutter"
     },
@@ -671,12 +671,12 @@
   "totals": {
     "Packagist": {
       "count": 12,
-      "downloads": 14632,
+      "downloads": 14795,
       "metric": "downloads"
     },
     "crates.io": {
       "count": 2,
-      "downloads": 15580,
+      "downloads": 15630,
       "metric": "downloads"
     },
     "WordPress.org": {
@@ -696,12 +696,12 @@
     },
     "pub.dev": {
       "count": 3,
-      "downloads": 147,
+      "downloads": 142,
       "metric": "downloads/30d"
     },
     "GitHub": {
       "count": 41,
-      "stars": 1510
+      "stars": 1511
     }
   }
 }
